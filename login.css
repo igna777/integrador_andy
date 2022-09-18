@@ -1,0 +1,92 @@
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-family: "lato", sans-serif;
+    color: #F4F4F4;
+    background-color: #DDDDDD;
+
+    background: linear-gradient(#ff3232, red, rgb(0, 0, 0));
+}
+
+
+
+ */
+
+* {
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "lato", sans-serif;
+    background-color: black;
+
+}
+
+.log {
+    margin: auto;
+
+}
+
+.form-login {
+    width: 400px;
+    height: 340px;
+    background: #4e4d4d;
+    margin: auto;
+    margin-top: 180px;
+    padding: 20px 30px;
+    border-radius: 20%;
+    color: white;
+    background: linear-gradient(#ff3232, red, rgb(0, 0, 0));
+    box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.2),
+        7px 7px 20px rgba(238, 234, 234, 0.2);
+}
+
+.form-login h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.controls {
+    width: 100%;
+    border: 1px solid #ff3232;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #252323;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttons {
+    width: 100%;
+    height: 40px;
+    background: #ff3232;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.form-login p {
+    height: 40px;
+    text-align: center;
+}
+
+.form-login a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-login a:hover {
+    text-decoration: underline;
+}
