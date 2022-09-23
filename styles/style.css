@@ -117,61 +117,6 @@ p {
     border-bottom: 3px solid #FC3004;
 }
 
-
-.showcase p {
-    margin-bottom: 30px;
-}
-
-.showcase img {
-    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
-}
-
-.showcase-form {
-    padding-left: 7px;
-}
-
-.grid {
-    overflow: visible;
-    display: grid;
-    grid-template-columns: 60% 40%;
-}
-
-.grid-item-1,
-.grid-item-2 {
-    position: relative;
-    top: 50px;
-}
-
-.showcase input[type='email'] {
-    padding: 10px 70px 10px 0;
-    font-size: 14px;
-    border: none;
-    border-radius: 6px;
-    padding-left: 6px;
-}
-
-.btn {
-    border-radius: 6px;
-    padding: 12px 20px;
-    background: #FC3004;
-    border: none;
-    margin-left: 10px;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-}
-
-.showcase-form {
-    margin: auto;
-}
-
-.little-info {
-    font-size: 15px;
-    font-family: "poppins", sans-serif;
-
-}
-
 .lower-container {
     margin: 120px auto;
     padding: 0;
@@ -224,6 +169,8 @@ p {
 .testimonial img {
     height: 100%;
     clip-path: circle();
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
 }
 
 .testimonial h3 {
@@ -249,19 +196,6 @@ footer {
     box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.2),
         7px 7px 20px rgba(238, 234, 234, 0.2);
     background: linear-gradient(#ff3232, red, rgb(0, 0, 0));
-}
-
-.circle {
-    background-color: transparent;
-    border: 3px solid #FC3004;
-    height: 90px;
-    position: relative;
-    top: -30px;
-    left: 120px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    width: 90px;
 }
 
 
